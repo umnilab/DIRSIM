@@ -27,7 +27,7 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Satish V.
 ## Results
 
 <p align="center">
-  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/master/figures/simulation-flowchart.png" width="666">
+  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/master/figures/simulation-flowchart.png" width="120">
 </p>
 
 ## License
