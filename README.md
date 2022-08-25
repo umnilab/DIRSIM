@@ -27,7 +27,7 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Satish V.
 ## Results
 
 <p align="center">
-  <img src="https://github.com/jiang719/road-network-predictability/blob/master/main-figure/001.png" width="666">
+  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/master/figures/simulation-flowchart.png" width="666">
 </p>
 
 ## License
