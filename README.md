@@ -22,7 +22,7 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Satish V.
 
 * **data**: Preprocess mobile phone location data from Quadrant (https://www.quadrant.io/mobile-location-data), POI data from SafeGraph (https://www.safegraph.com/). 
 * **model**: Define agents in the three-layer network and their recovery dynamics.
-* **result**: Simulate the system recovery under varying scenarios.
+* **results**: Simulate the system recovery under varying scenarios.
 
 ## Results
 
