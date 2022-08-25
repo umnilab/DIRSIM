@@ -24,7 +24,7 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Satish V.
 * **model**: Define agents in the three-layer network and their recovery dynamics.
 * **results**: Simulate the system recovery under varying scenarios.
 
-## Results
+## Flowchart
 The long-term PDR process. (a) The dynamics of activity strength (i.e. $r_{a}(t)$) for agents representing homes and POIs. (b) The flowchart summarizing the procedure of agent interactions in the PDR process.
 <p align="center">
   <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/simulation-flowchart.png" width="600">
