@@ -1,4 +1,4 @@
-# PostDisasterSim
+# PostDisasterSim (PDS)
 An agent-based simulator mimicking how social-physical multilayer system recovers after a disaster.
 
 ## Introduction
