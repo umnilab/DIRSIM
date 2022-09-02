@@ -27,7 +27,7 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Satish V.
 ## Overview
 Overview of used data, multilayer social-physical network, and the agent-based model for post-disaster recovery.
 <p align="center">
-  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/overview.png" width="600">
+  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/overview.png" width="700">
 </p>
 
 ## Simulation Flowchart
