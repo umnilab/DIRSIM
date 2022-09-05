@@ -24,15 +24,15 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Satish V.
 
 ## Directory Structure
 
-* **data**: Preprocess mobile phone location data from Quadrant (https://www.quadrant.io/mobile-location-data), POI data from SafeGraph (https://www.safegraph.com/). 
-* **model**: Define agents in the three-layer network and their recovery dynamics.
+* **data**: preprocess mobile phone location data from Quadrant (https://www.quadrant.io/mobile-location-data), POI data from SafeGraph (https://www.safegraph.com/). 
+* **model**: define agents in the three-layer network and their recovery dynamics.
 
 1. Codes under folders "code_1_POI_node", "code_2_POI_edge",  and "code_3_POI_dynamic" define nodes and edges in the POI layer and extract the dynamic of POI activities from the SafeGraph POI data.
 
 2. Codes under "code_4_Mobility_node", "code_5_Mobility_edge",  and "code_6_Mobility_dynamic" define nodes and edges in the home layer and extract the dynamic of return-home behavior from the Quadrant mobility data.
 
 3. The Code under "code_7_ABM" is our ABM model. It takes the outputs of codes 1-6 as the input and simulates the dynamic of our three-layer system.
-* **results**: Simulate the system recovery under varying scenarios.
+* **results**: simulate the system recovery under varying scenarios.
 
 ## Overview
 Overview of used data, multilayer social-physical network, and the agent-based model for post-disaster recovery.
