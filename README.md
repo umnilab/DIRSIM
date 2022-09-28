@@ -16,7 +16,7 @@ An agent-based simulator mimicking how social-physical multilayer system recover
 ## Publication
 
 **Supporting Post-disaster Recovery with Agent-based Modeling on Multilayer Social-physical Networks.**
-Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Satish V. Ukkusuri\*. Under review. 2022.
+Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao, Satish V. Ukkusuri\*. Under review. 2022.
 
 ## Requirements
 * Python 3.6
