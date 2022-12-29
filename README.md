@@ -9,14 +9,14 @@ An agent-based simulator mimicking how social-physical multilayer system recover
 
 * PostDisasterSim simulates the post-disaster recovery (PDR) of the social-physical system, enabling us to understand its details and evaluate various policies.
 * It is composed of three successive components: (1) network definition; (2) agent interaction modeling; (3) agent-based simulation.
-* Network definition: build the three-layer network using mobility phone location data, Point-of-interest (POI) data, and electricity data.  
+* Network definition: build the three-layer network using mobility phone location data, Point-of-interest (POI) data, and water/sewer data.  
 * Agent interaction modeling: specify how agents interact with each other during the PDR process.
 * Agent-based simulation: simulate the recovery of each agent in the three-layer network temporally.
 
 ## Publication
 
 **Supporting Post-disaster Recovery with Agent-based Modeling on Multilayer Social-physical Networks.**
-Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao, Satish V. Ukkusuri\*. Under review. 2022.
+Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao, Satish V. Ukkusuri\*. Under review. 2023.
 
 ## Requirements
 * Python 3.6
@@ -27,9 +27,9 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao,
 * **data**: preprocess mobile phone location data from Quadrant (https://www.quadrant.io/mobile-location-data), POI data from SafeGraph (https://www.safegraph.com/). 
 * **model**: define agents in the three-layer network and their recovery dynamics.
 
-1. Codes under folders "code_1_POI_node", "code_2_POI_edge",  and "code_3_POI_dynamic" define nodes and edges in the POI layer and extract the dynamic of POI activities from the SafeGraph POI data.
+1. Codes under folders "code_1_POI_node", "code_2_POI_edge",  and "code_3_POI_dynamic" define nodes and edges in the social infrastructure layer and extract the dynamic of POI activities using the SafeGraph POI data.
 
-2. Codes under "code_4_Mobility_node", "code_5_Mobility_edge",  and "code_6_Mobility_dynamic" define nodes and edges in the home layer and extract the dynamic of return-home behavior from the Quadrant mobility data.
+2. Codes under "code_4_Mobility_node", "code_5_Mobility_edge",  and "code_6_Mobility_dynamic" define nodes and edges in the human layer and extract the dynamic of return-home behavior using the Quadrant mobility data.
 
 3. The Code under "code_7_ABM" is our ABM model. It takes the outputs of codes 1-6 as the input and simulates the dynamic of our three-layer system.
 * **results**: simulate the system recovery under varying scenarios.
