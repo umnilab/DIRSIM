@@ -7,8 +7,8 @@ An agent-based model that simulates how a socio-physical multilayer system recov
 ## Introduction
 
 * PostDisasterSim simulates the post-disaster recovery (PDR) of the social-physical system, enabling us to understand its details and evaluate various policies.
-* It is composed of three successive components: (1) network definition; (2) agent interaction modeling; (3) agent-based simulation.
-* Network definition: build the three-layer network using mobility phone location data, Point-of-interest (POI) foot traffic data, and survey data.  
+* It is composed of three successive components: (1) network definition; (2) agent interaction modeling; and (3) agent-based simulation.
+* Network definition: build the three-layer network using mobility phone location data, Point-of-interest (POI) foot traffic data.  
 * Agent interaction modeling: specify how agents interact with each other during the PDR process.
 * Agent-based simulation: simulate the recovery of each agent in the three-layer network temporally.
 
@@ -34,13 +34,13 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao,
 * **results**: simulate the system recovery under varying scenarios.
 
 ## Overview
-Overview of used data, multilayer social-physical network, and the agent-based model for post-disaster recovery.
+Overview of used data, three-layer socio-physical network, and the agent-based model (ABM) for post-disaster recovery.
 <p align="center">
   <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/overview.png" width="700">
 </p>
 
 ## Simulation Flowchart
-The long-term PDR process. (a) The dynamics of activity strength (i.e. $r_{a}(t)$) for agents representing homes and POIs. (b) The flowchart summarizing the procedure of agent interactions in the PDR process.
+The long-term PDR process. (a) The dynamics of recovery levels (i.e. $r_{a}(t)$) for agents representing users and POIs. (b) The flowchart that summarizes the procedure of agent interactions in the PDR process.
 <p align="center">
   <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/simulation-flowchart.png" width="600">
 </p>
