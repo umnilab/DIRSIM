@@ -1,5 +1,5 @@
 # PostDisasterSim (PDS)
-An agent-based simulator mimicking how social-physical multilayer system recovers after a disaster.
+An agent-based model that simulates how a socio-physical multilayer system recovers after a disaster.
 
 ## Project 
 * National Science Foundation 1638311 (CRISP Type 2/Collaborative Research: Critical Transitions in the Resilience and Recovery of Interdependent Social and Physical Networks).
@@ -8,7 +8,7 @@ An agent-based simulator mimicking how social-physical multilayer system recover
 
 * PostDisasterSim simulates the post-disaster recovery (PDR) of the social-physical system, enabling us to understand its details and evaluate various policies.
 * It is composed of three successive components: (1) network definition; (2) agent interaction modeling; (3) agent-based simulation.
-* Network definition: build the three-layer network using mobility phone location data, Point-of-interest (POI) data, and water/sewer data.  
+* Network definition: build the three-layer network using mobility phone location data, Point-of-interest (POI) foot traffic data, and survey data.  
 * Agent interaction modeling: specify how agents interact with each other during the PDR process.
 * Agent-based simulation: simulate the recovery of each agent in the three-layer network temporally.
 
