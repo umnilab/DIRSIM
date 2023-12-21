@@ -41,7 +41,7 @@ Overview of used data, three-layer socio-physical network, and the agent-based m
 </p>
 
 ## Simulation Flowchart
-The long-term PDR process. (a) The dynamics of recovery levels (i.e. $r_{a}(t)$) for agents representing users and POIs. (b) The flowchart that summarizes the procedure of agent interactions in the PDR process.
+The long-term PDR process. (a, b) The dynamics of recovery levels (i.e. $r_{a}(t)$) for agents representing users and POIs. (c) The flowchart that summarizes the procedure of agent interactions in the PDR process.
 <p align="center">
   <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/simulation-flowchart.png" width="600">
 </p>
