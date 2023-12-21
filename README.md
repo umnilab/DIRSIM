@@ -23,16 +23,23 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao,
 
 ## Directory Structure
 
-* **data**: mobile phone location data from Quadrant (https://www.quadrant.io/mobile-location-data), POI data from SafeGraph (https://www.safegraph.com/). 
-* **network_constructor**: define agents in the three-layer network.
+* **0_data**. Released: the shapefile of Texas; the recovery level of physical infrastructures; Not released: mobile phone location data; POI data from SafeGraph (https://www.safegraph.com/).
 
-1. Codes in "network_constructor/home/" define nodes and edges in the human layer using the Quadrant data.
+* **1_data_preprocessing**. extract mobile phone location data within the five counties.
 
-2. Codes in "network_constructor/poi/" define nodes and edges in the social infrastructure layer using the SafeGraph data.
+* **2_network_constructor**. define agents in the three-layer network.
 
-* **model**: the code under "model/" is our ABM model. It takes the outputs of previous codes and simulates the dynamic of the three-layer system.
+1. Codes in "network_constructor/home/" define nodes and edges in the human layer.
+
+2. Codes in "network_constructor/poi/" define nodes and edges in the social infrastructure layer.
+
+* **3_model**. the code under "model/" is our ABM model. It takes the outputs of previous codes and simulates the dynamic of the three-layer system.
+
+* **4_validation**. validate the simulation outcome with ground truth from mobile phone location and POI data.
    
-* **results**: simulate the system recovery under the nine scenarios.
+* **5_results**. simulate the system recovery under the nine scenarios.
+
+* **6_figures**. figures shown in this GitHub Repository.
 
 ## Overview
 Overview of used data, three-layer socio-physical network, and the agent-based model (ABM) for post-disaster recovery.
