@@ -44,13 +44,13 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao,
 ## Overview
 Overview of used data, three-layer socio-physical network, and the agent-based model (ABM) for post-disaster recovery.
 <p align="center">
-  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/overview.png" width="700">
+  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/6_figures/overview.png" width="700">
 </p>
 
 ## Simulation Flowchart
 The long-term PDR process. (a, b) The dynamics of recovery levels (i.e. $r_{a}(t)$) for agents representing users and POIs. (c) The flowchart that summarizes the procedure of agent interactions in the PDR process.
 <p align="center">
-  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/figures/simulation-flowchart.png" width="600">
+  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/6_figures/simulation-flowchart.png" width="600">
 </p>
 
 ## License
