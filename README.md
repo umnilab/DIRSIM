@@ -39,7 +39,7 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao,
    
 * **5_results**. simulate the system recovery under the nine scenarios.
 
-* **6_figures**. figures shown in this GitHub Repository.
+* **6_figures**. figures in this GitHub repository.
 
 ## Overview
 Overview of used data, three-layer socio-physical network, and the agent-based model (ABM) for post-disaster recovery.
