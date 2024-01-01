@@ -1,4 +1,4 @@
-# PostDisasterSim
+# DIRSIM: Disaster Infrastructure Recovery Simulator 
 An agent-based model that simulates how a socio-physical multilayer system recovers after a disaster.
 
 ## Project 
@@ -6,7 +6,7 @@ An agent-based model that simulates how a socio-physical multilayer system recov
 
 ## Introduction
 
-* PostDisasterSim simulates the post-disaster recovery (PDR) of the social-physical system, enabling us to understand its details and evaluate various policies.
+* DIRSIM simulates the post-disaster recovery (PDR) of the social-physical system, enabling us to understand its details and evaluate various policies.
 * It is composed of three successive components: (1) network definition; (2) agent interaction modeling; and (3) agent-based simulation.
 * Network definition: build the three-layer network using mobility phone location data, Point-of-interest (POI) foot traffic data.  
 * Agent interaction modeling: specify how agents interact with each other during the PDR process.
@@ -14,8 +14,8 @@ An agent-based model that simulates how a socio-physical multilayer system recov
 
 ## Publication
 
-**Supporting Post-disaster Recovery with Agent-based Modeling on Multilayer Social-physical Networks.**
-Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao, Satish V. Ukkusuri\*. Under review. 2023.
+**DIRSIM: An Agent-based Model of Post-disaster Recovery in Multilayer Socio-physical Networks.**
+Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao, Satish V. Ukkusuri\*. Under review. 2024.
 
 ## Requirements
 * Python 3.6
@@ -44,13 +44,13 @@ Jiawei Xue, Sangung Park, Washim Uddin Mondal, Sandro Martinelli Reia, Tong Yao,
 ## Overview
 Overview of used data, three-layer socio-physical network, and the agent-based model (ABM) for post-disaster recovery.
 <p align="center">
-  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/6_figures/overview.png" width="700">
+  <img src="https://github.com/JiaweiXue/DIRSIM/blob/main/6_figures/overview.png" width="700">
 </p>
 
 ## Simulation Flowchart
 The long-term PDR process. (a, b) The dynamics of recovery levels (i.e. $r_{a}(t)$) for agents representing users and POIs. (c) The flowchart that summarizes the procedure of agent interactions in the PDR process.
 <p align="center">
-  <img src="https://github.com/JiaweiXue/PostDisasterSim/blob/main/6_figures/simulation-flowchart.png" width="600">
+  <img src="https://github.com/JiaweiXue/DIRSIM/blob/main/6_figures/simulation-flowchart.png" width="600">
 </p>
 
 ## License
